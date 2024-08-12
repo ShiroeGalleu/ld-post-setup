@@ -48,3 +48,11 @@
 - run`chmod +x ldps.sh` then `./ldps.sh`
 - when you see `auto-cpufreq installer` type `I` then hit enter
 - once done reboot `systemctl reboot`
+
+
+### CREDIT:
+[Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
+[Maya](https://github.com/Maccraft123) for cadmium
+[kaitlyn](https://github.com/catgirlcataclysm)
+[Radical](https://github.com/Radiicall)
+[Azull]()
