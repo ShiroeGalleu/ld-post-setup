@@ -33,16 +33,18 @@
 - at this point you can use ssh or contiune type on the tablet.
 
 ### SSH: This is all done of device
-- download the .sh file from above then `cd` into the folder where you downloaded it
-- run the fallowing `scp ldps.sh username@ip:~/lpds.sh` replace `username` with the username you used in the setup and replace `ip` with your device ip
+- download ldps.sh file from above then `cd` into the folder where you downloaded it
 - ssh into your duet with `ssh username@ip` then run `su` to switch to root
-- once you login as root run`chmod +x ldps.sh` then `./ldps.sh`
+- run `apt install git`
+- run `git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup`
+- run`chmod +x ldps.sh` then `./ldps.sh`
 - when you see `auto-cpufreq installer` type `I` then hit enter
+- once done reboot
 
 ### ON Device:
 - sign in as root
 - run `apt install git`
-- run `git clone `
-
-
-systemctl reboot
+- run `git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup`
+- run`chmod +x ldps.sh` then `./ldps.sh`
+- when you see `auto-cpufreq installer` type `I` then hit enter
+- once done reboot
