@@ -1,0 +1,27 @@
+#Shimmy Shitty Post install script for cadmium
+#Version 081124.1
+
+apt install -y sudo libwacom-bin maliit-keyboard maliit-framework
+#Fix the Stylus and screen rotate "Thank you Azull"
+mkdir /etc/libwacom/
+cp google-krane.tablet /etc/libwacom/google-krane.tablet
+
+cp local-overrides.quirks /etc/libinput/local-overrides.quirks
+
+cp 61-cros-ec-accel.rules /etc/udev/rules.d/61-cros-ec-accel.rules
+
+libwacom-update-db
+
+#installs auto-cpufreq: https://github.com/AdnanHodzic/auto-cpufreq?tab=readme-ov-file#installing-auto-cpufreq
+git clone https://github.com/AdnanHodzic/auto-cpufreq.git
+cd auto-cpufreq && ./auto-cpufreq-installer
+
+echo "please choose (KDE Plasma)"
+sleep 2
+tasksel
+
+#makes sddm use wayland (Not required if using GDM)
+mkdir /etc/sddm.conf.d/
+echo "[General]
+DisplayServer=wayland" > /etc/sddm.conf.d/force_x11.conf
+
