@@ -1,7 +1,7 @@
 #Shimmy Shitty Post install script for cadmium
 #Version 081124.1
 
-apt install -y sudo libwacom-bin maliit-keyboard maliit-framework
+apt install -y sudo libwacom-bin maliit-keyboard maliit-framework kde-plasma-desktop
 #Fix the Stylus and screen rotate "Thank you Azull"
 mkdir /etc/libwacom/
 cp google-krane.tablet /etc/libwacom/google-krane.tablet
