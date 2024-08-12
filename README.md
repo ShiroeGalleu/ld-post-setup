@@ -30,3 +30,7 @@
 - once you hit ```one of: gnome kde phosh sway or none?``` type in `none`
 - it will now run finnish installing. once you see `done!` type `reboot` and once you see the white boot screen you can remove your usb
 - once you have booted of the internal storage, you will need sign in as root and connect to wifi click [here](https://www.makeuseof.com/connect-to-wifi-with-nmcli/). you can skip to step 2
+- at this point you can use ssh or contiune type on the tablet.
+
+### SSH: This is all done of device
+- download 
