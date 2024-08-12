@@ -32,7 +32,7 @@
 - once you have booted of the internal storage, you will need sign in as root and connect to wifi click [here](https://www.makeuseof.com/connect-to-wifi-with-nmcli/). you can skip to step 2
 - at this point you can use ssh or contiune type on the tablet.
 
-### SSH: This is all done of device
+### SSH: Setup Over Network
 - download ldps.sh file from above then `cd` into the folder where you downloaded it
 - ssh into your duet with `ssh username@ip` then run `su` to switch to root
 - run `apt install git`
