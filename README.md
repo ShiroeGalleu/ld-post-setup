@@ -52,7 +52,11 @@
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
+
 [Maya](https://github.com/Maccraft123) for cadmium
+
 [kaitlyn](https://github.com/catgirlcataclysm)
+
 [Radical](https://github.com/Radiicall)
+
 [Azull]()
