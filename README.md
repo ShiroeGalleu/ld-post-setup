@@ -39,7 +39,7 @@
 - run `git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup`
 - run`chmod +x ldps.sh` then `./ldps.sh`
 - when you see `auto-cpufreq installer` type `I` then hit enter
-- once done reboot
+- once done reboot `systemctl reboot`
 
 ### ON Device:
 - sign in as root
@@ -47,4 +47,4 @@
 - run `git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup`
 - run`chmod +x ldps.sh` then `./ldps.sh`
 - when you see `auto-cpufreq installer` type `I` then hit enter
-- once done reboot
+- once done reboot `systemctl reboot`
