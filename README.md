@@ -55,6 +55,8 @@
 - when you see ```auto-cpufreq installer``` type `I` then hit enter
 - once done reboot ```systemctl reboot```
 
+### FIXED
+- INTERNAL SPEAKER 08/13/24 05:40 UTC -05
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
