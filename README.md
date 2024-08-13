@@ -22,6 +22,14 @@
 | Front + rear camera		   	| N  			|
 | x11                       | N       |
 
+
+## WARNING: if you want to use a desktop or wm, it will need to have wayland support
+### known working:
+- KDE Plasma
+- Gnome
+- sway
+
+
 ### Installation
 - Download [cadmium-arm64-debian.img.xz](https://github.com/Maccraft123/Cadmium/releases/tag/v0.4.0-pre2) and fallow the guide
 - after running `./install` and setting up wifi click quit in the bottem right. note that it will fail (this is fine)
