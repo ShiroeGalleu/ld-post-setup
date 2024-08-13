@@ -25,7 +25,7 @@
 ### Installation
 - Download [cadmium-arm64-debian.img.xz](https://github.com/Maccraft123/Cadmium/releases/tag/v0.4.0-pre2) and fallow the guide
 - after running `./install` and setting up wifi click quit in the bottem right. note that it will fail (this is fine)
-- run the fallowing command `apt install update && apt install full-upgrade` depending on your usb speed this may take a while
+- run the fallowing command `apt update && apt full-upgrade` depending on your usb speed this may take a while
 - run `./install` again and when on the wifi page click quit
 - once you hit `one of: gnome kde phosh sway or none?` type in `none`
 - it will now run finnish installing. once you see `done!` type `reboot` and once you see the white boot screen you can remove your usb
