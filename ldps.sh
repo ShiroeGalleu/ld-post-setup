@@ -10,6 +10,10 @@ cp -f local-overrides.quirks /etc/libinput/local-overrides.quirks
 
 cp 61-cros-ec-accel.rules /etc/udev/rules.d/61-cros-ec-accel.rules
 
+#Audio Fix. Mic works quite.
+rm -rf /usr/share/alsa/ucm2
+cp -r ucm2 /usr/share/alsa/ucm2
+
 libwacom-update-db
 
 #installs auto-cpufreq: https://github.com/AdnanHodzic/auto-cpufreq?tab=readme-ov-file#installing-auto-cpufreq
