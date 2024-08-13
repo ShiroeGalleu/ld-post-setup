@@ -35,7 +35,6 @@
 ### SSH: Setup Over Network
 - download ldps.sh file from above then `cd` into the folder where you downloaded it
 - ssh into your duet with `ssh username@ip` then run `su` to switch to root
-- run ```apt install git```
 - run ```git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup```
 - run ```chmod +x ldps.sh``` then ```./ldps.sh```
 - when you see ```auto-cpufreq installer``` type `I` then hit enter
@@ -43,7 +42,6 @@
 
 ### ON Device:
 - sign in as root
-- run ```apt install git```
 - run ```git clone https://github.com/ShiroeGalleu/ld-post-setup.git && cd ld-post-setup```
 - run ```chmod +x ldps.sh``` then ```./ldps.sh```
 - when you see ```auto-cpufreq installer``` type `I` then hit enter
