@@ -15,7 +15,7 @@
 | GPU reclocking	         	| Y			  |
 | Sleep                     | Y       |
 | Display Rotation         	| Y  			|
-| Audio		     	          	| NF mic	|
+| Audio		     	          	| Y				|
 | Hardware video decoding  	| N	  		|
 | KVM Virtualtization      	| N  			|
 | External Display	      	| N		  	|
@@ -57,6 +57,9 @@
 
 ### FIXED
 - INTERNAL SPEAKER 08/13/24 05:40 UTC -05
+
+### Work Arounds
+ - run TempMicFix.sh to get mic work
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
