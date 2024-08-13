@@ -28,3 +28,4 @@ DisplayServer=wayland" > /etc/sddm.conf.d/force_x11.conf
 echo "please pick your desktop. Plasma works the best"
 sleep 2
 tasksel
+echo "setup complete. you can now reboot with systemctl reboot"
