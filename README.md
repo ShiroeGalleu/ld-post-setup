@@ -15,7 +15,7 @@
 | GPU reclocking	         	| Y			  |
 | Sleep                     | Y       |
 | Display Rotation         	| Y  			|
-| Audio		     	          	| NF			|
+| Audio		     	          	| NF /mic	|
 | Hardware video decoding  	| N	  		|
 | KVM Virtualtization      	| N  			|
 | External Display	      	| N		  	|
