@@ -28,6 +28,7 @@
 - KDE Plasma
 - Gnome
 - sway
+- phosh-table
 
 
 ### Installation
@@ -59,7 +60,7 @@
 - INTERNAL SPEAKER 08/13/24 05:40 UTC -05
 
 ### Work Arounds
- - run TempMicFix.sh to get mic work
+ - run TempMicFix.sh to get mic working
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
