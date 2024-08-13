@@ -4,9 +4,9 @@
 apt install -y sudo libwacom-bin maliit-keyboard maliit-framework alsa-utils
 #Fix the Stylus and screen rotate "Thank you Azull"
 mkdir /etc/libwacom/
-cp google-krane.tablet /etc/libwacom/google-krane.tablet
+cp -f google-krane.tablet /etc/libwacom/google-krane.tablet
 
-cp local-overrides.quirks /etc/libinput/local-overrides.quirks
+cp -f local-overrides.quirks /etc/libinput/local-overrides.quirks
 
 cp 61-cros-ec-accel.rules /etc/udev/rules.d/61-cros-ec-accel.rules
 
