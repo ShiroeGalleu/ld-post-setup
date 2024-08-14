@@ -61,7 +61,10 @@
 
 ## Work Arounds:
 ### FIX MIC:
-- run [`pactl list > tmp.sh`]: <> note that the .sh is not needed, just looks better
+- run `pactl list > tmp.sh` . Note that the .sh is not needed, just easyer to read
+- you will need to look for the fallowing in the tmp file `Name: alsa_input.platform-mt8183-sound.HiFi__InternalMic__source` once found you need to copy the numbers of `Source #xx` xx being the numbers
+- run the fallowing commands `pactl set-source-volume xx 400%` xx being the numbers from the tmp file
+- to have it load at boot do `sudo alsactl store`
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
