@@ -66,7 +66,7 @@
 - run the fallowing commands `pactl set-source-volume xx 400%` xx being the numbers from the tmp file
 - to have it load at boot do `sudo alsactl store`
 
-### CREDIT:
+## CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
 
 [Maya](https://github.com/Maccraft123) for cadmium
