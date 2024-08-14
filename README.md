@@ -61,7 +61,7 @@
 
 ## Work Arounds:
 ### FIX MIC:
-- run `pactl list > tmp.sh` # note that the .sh is not needed, just looks better
+- run [`pactl list > tmp.sh`]: <> note that the .sh is not needed, just looks better
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
