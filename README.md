@@ -56,11 +56,12 @@
 - when you see ```auto-cpufreq installer``` type `I` then hit enter
 - once done reboot ```systemctl reboot```
 
-### FIXED
+### FIXED:
 - INTERNAL SPEAKER 08/13/24 05:40 UTC -05
 
-### Work Arounds
- - run TempMicFix.sh to get mic working
+## Work Arounds:
+### FIX MIC:
+- run `pactl list > tmp.sh` # note that the .sh is not needed, just looks better
 
 ### CREDIT:
 [Adnan Hodzic](https://github.com/AdnanHodzic) for the auto-cpu-freq script
