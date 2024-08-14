@@ -1,7 +1,7 @@
 # Lenovo Duet post setup script for cadmium
 
 ## Hardware support:
-### Note: (NF) means Not fully
+### Note: (NW) means Needs Workaround: listed below
 | Hardware support matrix  	| Y/N  		| 
 |-------------------------	|--------	|
 | Internal Display	       	| Y		   	|
@@ -15,7 +15,8 @@
 | GPU reclocking	         	| Y			  |
 | Sleep                     | Y       |
 | Display Rotation         	| Y  			|
-| Audio		     	          	| Y				|
+| Audio output 	          	| Y				|
+| Built in mic              | NW      |
 | Hardware video decoding  	| N	  		|
 | KVM Virtualtization      	| N  			|
 | External Display	      	| N		  	|
