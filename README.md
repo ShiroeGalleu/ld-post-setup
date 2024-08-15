@@ -28,6 +28,7 @@
 ### known working:
 - KDE Plasma
 - Plasma Mobile
+- Cinnamon (Experimental)
 - Gnome
 - sway
 - hyperland
