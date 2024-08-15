@@ -27,6 +27,7 @@
 ## WARNING: if you want to use a desktop or wm, it will need to have wayland support
 ### known working:
 - KDE Plasma
+- Plasma Mobile
 - Gnome
 - sway
 - phosh-table
