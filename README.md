@@ -30,6 +30,8 @@
 - Plasma Mobile
 - Gnome
 - sway
+- hyperland
+- phosh
 - phosh-table
 
 
