@@ -1,7 +1,7 @@
 #Shimmy Shitty Post install script for cadmium
-#Version 081124.1
+#Version 121324.1
 
-apt install -y sudo libwacom-bin maliit-keyboard maliit-framework alsa-utils
+apt-get install -y sudo libwacom-bin maliit-keyboard maliit-framework alsa-utils
 #Fix the Stylus and screen rotate "Thank you Azull"
 mkdir /etc/libwacom/
 cp -f google-krane.tablet /etc/libwacom/google-krane.tablet
@@ -25,6 +25,8 @@ mkdir /etc/sddm.conf.d/
 echo "[General]
 DisplayServer=wayland" > /etc/sddm.conf.d/force_x11.conf
 
+#install tasksel aka debian desktop installer
+apt-get install -y tasksel
 echo "please pick your desktop. Plasma works the best"
 sleep 2
 tasksel
