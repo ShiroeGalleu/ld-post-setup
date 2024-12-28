@@ -78,6 +78,4 @@
 
 [kaitlyn](https://github.com/catgirlcataclysm)
 
-[Radical](https://github.com/Radiicall)
-
 [Azull](https://azull.giize.com/)
